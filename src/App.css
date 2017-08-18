@@ -1,0 +1,71 @@
+th{
+  padding: 8px;
+}
+td{
+  padding: 10px;
+  border: 1px solid #E1E1E1;
+}
+
+input[type=text]{
+  padding: 0.5em;
+  margin-right: 1em;
+}
+.button {
+  display: inline-block;
+  height: 24px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  animation: app-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.app-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.app-info {
+  font-size: 10px;
+}
+
+#todo-form {
+  margin: 5em 0 1.5em 0;
+}
+
+#todo-form h4{
+  text-transform: capitalize;
+}
+
+#todo-table{
+  width: 320px;
+  border: 1px solid #E1E1E1;
+  margin: 0 auto 5em auto;
+  padding: 8px;
+}
+
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
