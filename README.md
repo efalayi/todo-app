@@ -6,6 +6,6 @@ This a simple ToDO App created with [create-react-app npm package](https://githu
 ***
 #### Getting Started
 
-- Clone the project from repository [github.com/andela-efalayi/asedeyhot-news](https://github.com/andela-efalayi/todo-app)
-- In your terminal, cd into the cloned folder and run `npm install`. This installs all the app's dependencies.
+- Clone the project from repository [github.com/andela-efalayi/todo-app](https://github.com/andela-efalayi/todo-app)
+- In your terminal, cd into the cloned folder and run `npm install`.
 - Run `npm start` in your terminal. This runs the application on your local machine.
