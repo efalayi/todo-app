@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 import Button from '../components/Button.jsx';
 
-describe('Button', () => {
+// describe('Button', () => {
   const mockFn = jest.fn();
   it('should be defined', () => {
     expect(Button).toBeDefined();
@@ -28,4 +28,4 @@ describe('Button', () => {
     tree.simulate('click');
     expect(mockFn).toHaveBeenCalled();
   });
-});
+// });
